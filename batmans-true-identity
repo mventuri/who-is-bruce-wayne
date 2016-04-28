@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Dark Knight</title>
+
+</head>
+<body>
+<h1>Is Bruce Wayne The Dark Knight?</h1>
+<img id="theTruth" src="C:\Users\mvent_000\Desktop\bruce.jpg" width="400" height="250"></br>
+<button type="button" onclick="ChangeImage()">Find it out!</button>
+
+
+
+<script>
+function ChangeImage(){
+var image = document.getElementById("theTruth")
+	if (image.src.match("C:\Users\mvent_000\Desktop\bruce.jpg")) {
+        image.src = "C:\Users\mvent_000\Desktop\batman-v-superman-purported-new-photos-of-ben-affl_wd82.1920.jpg";
+		
+		}
+	else {
+	image.src = "C:\Users\mvent_000\Desktop\bruce.jpg";
+	}
+}
+</script>
+</body>
+</html>
